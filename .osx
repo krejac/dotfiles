@@ -22,6 +22,7 @@ brew install python
 brew install ssh-copy-id
 brew install bash-completion
 # brew install youtube-dl
+brew install tree
 
 # Install casks
 brew cask install hazel
