@@ -1,0 +1,46 @@
+# setup
+# Installing apps, setting up OSX (via .osx) and symlinking dotfiles.
+
+###############################################################################
+# Installing apps                                                             #
+###############################################################################
+
+# Install Xcode cli-tools
+xcode-select --install
+sudo xcodebuild -license
+
+# Install Brew (http://brew.sh)
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# Install Caskroom (http://caskroom.io)
+brew install caskroom/cask/brew-cask
+
+# Install REAL python 2.7 (including pip etc.)
+brew install python
+
+# Install brew formulas
+brew install ssh-copy-id
+brew install bash-completion
+# brew install youtube-dl
+brew install tree
+
+# Install casks
+brew cask install hazel
+brew cask install 1password
+brew cask install atom
+brew cask install dropbox
+brew cask install google-chrome
+brew cask install transmit
+brew cask install little-snitch
+brew cask install the-unarchiver
+brew cask install vlc
+# brew cask install flux
+brew cask install transmission
+brew cask install tunnelblick
+brew cask install things
+
+###############################################################################
+# Setting up OSX                                                              #
+###############################################################################
+
+source ./.osx
