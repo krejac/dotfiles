@@ -44,3 +44,13 @@ brew cask install things
 ###############################################################################
 
 source ./.osx
+
+###############################################################################
+# Symlinking dotfiles                                                         #
+###############################################################################
+
+ln -s ./.bash_aliases ~/.bash_aliases
+ln -s ./.bash_logout ~/.bash_logout
+ln -s ./.bash_profile ~/.ash_profile
+ln -s ./.bash_prompt ~/.bash_prompt
+ln -s ./.bashrc ~/.bashrc
