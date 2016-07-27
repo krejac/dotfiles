@@ -34,11 +34,12 @@ brew cask install transmit
 brew cask install little-snitch
 brew cask install the-unarchiver
 brew cask install vlc
-brew cask install vmware-horizon-client
-# brew cask install flux
 brew cask install transmission
 brew cask install tunnelblick
-brew cask install things
+# brew cask install vmware-horizon-client
+# brew cask install flux
+# brew cask install things
+# brew cask install subler
 
 ###############################################################################
 # Setting up OSX                                                              #
