@@ -12,7 +12,7 @@ defaults -currentHost write -globalDomain com.apple.mouse.tapBehavior -int 1
 defaults write NSGlobalDomain AppleHighlightColor -string "0.764700 0.976500 0.568600"
 
 # Really fast keyboard repeat rate
-defaults write KeyRepeat -int 1
+defaults write NSGlobalDomain KeyRepeat -float 0.000000000001
 
 # Set time to ask for password after screensaver or sleep is invoked
 defaults write com.apple.screensaver askForPasswordDelay -int 5
