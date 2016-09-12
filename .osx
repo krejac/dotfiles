@@ -11,8 +11,9 @@ defaults -currentHost write -globalDomain com.apple.mouse.tapBehavior -int 1
 # Set highlight color to green
 defaults write NSGlobalDomain AppleHighlightColor -string "0.764700 0.976500 0.568600"
 
-# Really fast keyboard repeat rate
-defaults write NSGlobalDomain KeyRepeat -float 0.000000000001
+# Fast keyboard repeat rate
+defaults write NSGlobalDomain KeyRepeat -int 1 #fastest I could get to work on Sierra
+defaults write NSGlobalDomain InitialKeyRepeat -int 15.0
 
 # Set time to ask for password after screensaver or sleep is invoked
 defaults write com.apple.screensaver askForPasswordDelay -int 5
@@ -30,7 +31,7 @@ defaults write com.apple.screensaver askForPasswordDelay -int 5
 # 11: Launchpad
 # 12: Notification Center
 # Top left screen corner → Put display to sleep
-defaults write com.apple.dock wvous-tl-corner -int 10
+defaults write com.apple.dock wvous-tl-corner -intl
 defaults write com.apple.dock wvous-tl-modifier -int 0
 # Top right screen corner → Desktop
 defaults write com.apple.dock wvous-tr-corner -int 4
