@@ -5,6 +5,9 @@
 # Global settings / UI                                                        #
 ###############################################################################
 
+# Deactivate shadow on screenshots
+defaults write com.apple.screencapture disable-shadow -bool true
+
 # Tap-to-click (logout and back in to activate):
 defaults -currentHost write -globalDomain com.apple.mouse.tapBehavior -int 1
 
