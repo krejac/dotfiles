@@ -15,13 +15,14 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 # Install Caskroom (http://caskroom.io)
 brew install caskroom/cask/brew-cask
 
-# Install REAL python 2.7 (including pip etc.)
+# Install REAL python (including pip etc.)
 brew install python
+brew install python3
 
 # Install brew formulas
 brew install ssh-copy-id
 brew install bash-completion
-# brew install youtube-dl
+brew install youtube-dl
 brew install tree
 
 # Install casks
@@ -36,6 +37,9 @@ brew cask install the-unarchiver
 brew cask install vlc
 brew cask install transmission
 brew cask install tunnelblick
+brew cask install microsoft-office
+
+# Not used any more (to be removed?)
 # brew cask install vmware-horizon-client
 # brew cask install flux
 # brew cask install things
