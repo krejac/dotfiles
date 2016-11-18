@@ -4,6 +4,7 @@
 # Easier navigation
 alias ~="cd ~" # Home
 alias -- -="cd -" # Last used dir
+alias tree="tree -a -I 'venv|.git'"
 
 # Source virtualenv
 alias venv="source ./venv/bin/activate"
