@@ -8,6 +8,9 @@
 # Deactivate shadow on screenshots
 defaults write com.apple.screencapture disable-shadow -bool true
 
+# Change default name 'Screen Shot' to screenshot'
+defaults write com.apple.screencapture name "screenshot"
+
 # Tap-to-click (logout and back in to activate):
 defaults -currentHost write -globalDomain com.apple.mouse.tapBehavior -int 1
 
