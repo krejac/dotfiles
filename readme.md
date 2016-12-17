@@ -1,6 +1,6 @@
 # Dotfiles for macOS
 
-:rotating_light: WARNING: This *will* change the behaviour of macOS quite drastically and install several gigabyte worth of apps, programs and languages. :rotating_light:
+:rotating_light: **WARNING**: This *will* change the behaviour of macOS quite drastically. :rotating_light:
 
 ![screen shot](https://github.com/krestenjacobsen/dotfiles/blob/master/screenshot.png)
 
