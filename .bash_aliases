@@ -9,11 +9,6 @@ alias tree="tree -a -I 'venv|.git'"
 # Source virtualenv
 alias venv="source ./venv/bin/activate"
 
-# Shortcuts to Taskwarrior
-alias t='task'
-alias tn='task next'
-alias ta='task add'
-
 # Weeknumber
 alias week='date +%V'
 
