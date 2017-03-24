@@ -55,9 +55,9 @@ source ./.osx
 # Symlinking dotfiles                                                         #
 ###############################################################################
 
-DIRECTORY=$(pwd -L)
-ln -s $DIRECTORY/.bash_aliases ~/.bash_aliases
-ln -s $DIRECTORY/.bash_logout ~/.bash_logout
-ln -s $DIRECTORY/.bash_profile ~/.bash_profile
-ln -s $DIRECTORY/.bash_prompt ~/.bash_prompt
-ln -s $DIRECTORY/.bashrc ~/.bashrc
+CURRENTDIR=$(pwd -L)
+ln -s $CURRENTDIR/.bash_aliases ~/.bash_aliases
+ln -s $CURRENTDIR/.bash_logout ~/.bash_logout
+ln -s $CURRENTDIR/.bash_profile ~/.bash_profile
+ln -s $CURRENTDIR/.bash_prompt ~/.bash_prompt
+ln -s $CURRENTDIR/.bashrc ~/.bashrc
