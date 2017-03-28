@@ -24,6 +24,8 @@ brew install ssh-copy-id
 brew install bash-completion
 brew install youtube-dl
 brew install tree
+brew install shellcheck
+brew install nmap
 
 # Install casks
 brew cask install hazel
@@ -38,12 +40,8 @@ brew cask install vlc
 brew cask install transmission
 brew cask install tunnelblick
 brew cask install microsoft-office
-
-# Not used any more (to be removed?)
-# brew cask install vmware-horizon-client
-# brew cask install flux
-# brew cask install things
-# brew cask install subler
+brew cask install vmware-horizon-client
+brew cask install subler
 
 ###############################################################################
 # Setting up OSX                                                              #
