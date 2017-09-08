@@ -35,7 +35,7 @@ See [`.osx`](https://github.com/krestenjacobsen/dotfiles/blob/master/.osx).
 
 Nothing ireversible - if you backup your home catalog before running `setup` (they only change the Terminals behaviour). See  [The Lumber Room](https://shreevatsa.wordpress.com/2008/03/30/zshbash-startup-files-loading-order-bashrc-zshrc-etc/) for a thorugh walkthrough.
 
-### That about that Terminal theme though?
+### What about that Terminal theme though?
 
 That's stolen from [Nathan Buchar's repo](https://github.com/nathanbuchar/atom-one-dark-terminal). (Hope he forgives me.)
 
