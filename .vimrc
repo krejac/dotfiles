@@ -63,4 +63,3 @@ let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
 " Line numbers
 set nu
 
-" Markdown syntax highlight for .md-files (only .markdown supported by default)
