@@ -60,3 +60,4 @@ ln -s $CURRENTDIR/.bash_logout ~/.bash_logout
 ln -s $CURRENTDIR/.bash_profile ~/.bash_profile
 ln -s $CURRENTDIR/.bash_prompt ~/.bash_prompt
 ln -s $CURRENTDIR/.bashrc ~/.bashrc
+ln -s $CURRENTDIR/.vimrc ~/.vimrc
