@@ -69,3 +69,11 @@ defaults write com.apple.Safari ShowFavoritesBar -bool false
 
 # Hide Safari’s sidebar in Top Sites
 defaults write com.apple.Safari ShowSidebarInTopSites -bool false
+
+
+###############################################################################
+# TextEdit                                                                    #
+###############################################################################
+
+# Open TextEdit with empty file instead of the Open Pane
+defaults write -g NSShowAppCentricOpenPanelInsteadOfUntitledFile -bool false
