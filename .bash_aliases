@@ -13,7 +13,7 @@ alias venv="source ./venv/bin/activate"
 alias week='date +%V'
 
 # Get OS X Software Updates, and Homebrew, and their installed packages
-alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; mas upgrade'
+alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup'
 
 # Show/hide hidden files in Finder
 alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
